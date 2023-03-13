@@ -33,8 +33,6 @@ export function moveBall (e, ball, stage) {
 }
 
 export function shortcuts (e) {
-    console.log(e);
-    console.log(e.key);
 
     if (e.key === "a" && e.altKey) {
         alert("Haz invocado una alerta por medio del teclado!");
