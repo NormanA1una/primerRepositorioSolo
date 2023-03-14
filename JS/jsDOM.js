@@ -12,11 +12,12 @@ d.addEventListener("DOMContentLoaded", (e) => {
     digitalClock("#reloj", "#empezar-reloj", "#detener-reloj");
     alarm("Assets/rengoku_hono_no_kokyu.mp3", "#empezar-alarma", "#detener-alarma")
     countdown("countdown", "Feb 27, 2024 05:00:00", "Feliz Cumpleañoooooos!!");
-    scrollTop(".scroll-top-btn")
-    darkTheme(".dark-theme-btn", "dark-mode", "stage-gray")
+    scrollTop(".scroll-top-btn");
 })
 
 d.addEventListener("keydown", (e) => {
     shortcuts(e);
     moveBall(e, ".ball", ".stage");
 })
+
+darkTheme(".dark-theme-btn", "dark-mode", "stage-gray");
